@@ -124,7 +124,7 @@
                        }
                        
                        .orange-text {
-                           color: #CA6631;
+                           color: #CA6631 !important;
                        }
                        
                        .orange-bg {
@@ -253,8 +253,14 @@
                            box-shadow: 0 0px 8px 0 rgb(0 0 0 / 0%), 0 0px 16px 0px rgb(51 51 51 / 15%);
                        }
                        
+                       .modal-content {
+                           border: none;
+                           box-shadow: 0 0px 8px 0 rgb(0 0 0 / 0%), 0 0px 16px 0px rgb(51 51 51 / 15%);
+                           border-radius: 0;
+                       }
+                       
                        #contactUs img {
-                           height: 616px;
+                           height: 730px;
                            width: 100%;
                            object-fit: cover;
                            object-position: center;
@@ -327,7 +333,7 @@
                        }
                        
                        #headerSlider .owl-stage-outer {
-                           height: 95vh;
+                           height: 100vh;
                        }
                        
                        #headerSlider .owl-stage {
@@ -387,5 +393,23 @@
                            #projectSlider .owl-item img {
                                height: 300px;
                                object-fit: cover;
+                           }
+                           #headerSlider {
+                               padding-top: 65px;
+                           }
+                           nav {
+                               padding-top: 8px !important;
+                           }
+                           #headerSlider .owl-stage-outer {
+                               height: 400px;
+                           }
+                           #recent-works .project .overlay {
+                               top: 0%;
+                               left: 0%;
+                               opacity: 1;
+                               cursor: pointer;
+                               -webkit-transform: scaleY(1);
+                               transform: scaleY(1);
+                               z-index: 0;
                            }
                        }
